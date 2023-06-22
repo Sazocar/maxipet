@@ -1,4 +1,5 @@
 import Category from '../Category';
+import Heading from '../Heading';
 
 const CategorySection = () => {
   const categories = [
@@ -36,10 +37,7 @@ const CategorySection = () => {
 
   return (
     <section className="mx-auto w-3/4 my-20">
-      <h4 className="text-sm text-secondary-500">Lorem ipsum dolor sit amet</h4>
-      <h2 className="text-xl text-primary-300 font-extrabold uppercase">
-        Una gran variedad de categorias
-      </h2>
+      <Heading text="Una gran variedad de categorias" />
       <div className="grid my-4 mx-auto place-items-center gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 w-full max-w-screen-xl">
         {categories.map((item) => (
           <Category key={item.id} item={item} />
