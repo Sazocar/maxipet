@@ -18,15 +18,15 @@ const FeatureProductSection = () => {
   return (
     <section className="mx-auto w-5/6 my-20">
       <Heading text="Productos Destacados" />
-      <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-row justify-between">
         <Image
           src="/cat.png"
           alt="Cat"
           width={440}
-          height={708}
-          className="h-full object-cover"
+          height={1000}
+          className="md:mt-4 hidden mt-12 md:block md:w-4/6 h-full object-cover"
         />
-        <div className="w-full grid my-4 mx-auto place-items-center gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-xl">
+        <div className="w-full mt-12 md:mt-4 grid pl-12 mx-auto place-items-center gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {productsArray.map((item) => (
             <Product key={item.id} product={product} />
           ))}
