@@ -1,7 +1,6 @@
-
 /* eslint-disable import/no-extraneous-dependencies */
 
-const withMT = require("@material-tailwind/react/utils/withMT");
+const withMT = require('@material-tailwind/react/utils/withMT');
 
 module.exports = withMT({
   content: [
@@ -31,7 +30,7 @@ module.exports = withMT({
           200: '#AAFDCD',
           300: '#79FCAF',
           400: '#47FA92',
-          500: '#15F974',
+          500: '#867D77',
           600: '#68605B',
         },
         background: {

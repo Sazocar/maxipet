@@ -4,9 +4,9 @@
 @tailwind variants;
 
 /* purgecss start ignore */
-html,
-body {
-  font-family: 'Open Sans', sans-serif;
+
+.carousel {
+  height: 580px;
 }
 
 .input {
