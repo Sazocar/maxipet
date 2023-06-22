@@ -1,10 +1,10 @@
-const LocationIcon = () => (
+const LocationIcon = ({ color }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    fill="#fff"
-    stroke="#fff"
+    fill={color}
+    stroke={color}
     viewBox="0 0 32 32"
     className="cursor-pointer"
   >

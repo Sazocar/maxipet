@@ -5,6 +5,7 @@ const ShoppingCartIcon = () => (
     height="24"
     fill="none"
     viewBox="0 0 24 24"
+    className="cursor-pointer"
   >
     <path
       stroke="#000"

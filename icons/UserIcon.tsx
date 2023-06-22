@@ -5,6 +5,7 @@ const UserIcon = () => (
     height="24"
     fill="none"
     viewBox="0 0 24 24"
+    className="cursor-pointer"
   >
     <g id="SVGRepo_iconCarrier">
       <g id="User / User_Square">

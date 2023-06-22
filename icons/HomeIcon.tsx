@@ -7,6 +7,7 @@ const HomeIcon = () => (
     stroke="#000"
     strokeWidth="0"
     viewBox="0 0 24 24"
+    className="cursor-pointer"
   >
     <path
       id="SVGRepo_iconCarrier"
