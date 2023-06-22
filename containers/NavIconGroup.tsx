@@ -8,7 +8,7 @@ const NavIconGroup = () => (
     <LocationIcon color="#000" />
     <HomeIcon />
     <UserIcon />
-    <ShoppingCartIcon />
+    <ShoppingCartIcon color="#000" />
   </div>
 );
 export default NavIconGroup;

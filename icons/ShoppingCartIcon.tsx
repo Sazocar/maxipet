@@ -1,4 +1,4 @@
-const ShoppingCartIcon = () => (
+const ShoppingCartIcon = ({ color }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -8,7 +8,7 @@ const ShoppingCartIcon = () => (
     className="cursor-pointer"
   >
     <path
-      stroke="#000"
+      stroke={color}
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="1.5"
