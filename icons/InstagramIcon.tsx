@@ -6,6 +6,7 @@ const InstagramIcon = () => (
     fill="none"
     stroke="#fff"
     viewBox="0 0 24 24"
+    className="cursor-pointer"
   >
     <path
       fill="#fff"

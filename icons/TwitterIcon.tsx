@@ -6,6 +6,7 @@ const TwitterIcon = () => (
     fill="#fff"
     stroke="#fff"
     viewBox="0 0 512 512"
+    className="cursor-pointer"
   >
     <g id="SVGRepo_iconCarrier">
       <path
