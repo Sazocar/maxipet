@@ -4,6 +4,7 @@ import Router from 'next/router';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import '../styles.css';
+import { ThemeProvider } from '@material-tailwind/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   React.useEffect(() => {
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Plantilla Next.js | Avila Tek</title>
       </Head>
-      <Component {...pageProps} />
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

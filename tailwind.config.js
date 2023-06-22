@@ -1,7 +1,9 @@
-/* eslint-disable global-require */
+
 /* eslint-disable import/no-extraneous-dependencies */
 
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+module.exports = withMT({
   content: [
     './pages/**/*.{js,jsx,ts,tsx}',
     './components/**/*.{js,jsx,ts,tsx}',
@@ -44,4 +46,4 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/line-clamp'),
   ],
-};
+});
