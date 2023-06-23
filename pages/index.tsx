@@ -7,6 +7,7 @@ import Ad from '../components/Ad';
 import BestSellers from '../components/BestSellers';
 import ServicesList from '../components/ServicesList';
 import Brands from '../components/Brands';
+import Footer from '../containers/Footer';
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ function HomePage() {
       />
       <ServicesList />
       <Brands />
+      <Footer />
     </>
   );
 }
