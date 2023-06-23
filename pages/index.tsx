@@ -6,6 +6,7 @@ import FeatureProductSection from '../components/FeatureProductSection';
 import Ad from '../components/Ad';
 import BestSellers from '../components/BestSellers';
 import ServicesList from '../components/ServicesList';
+import Brands from '../components/Brands';
 
 function HomePage() {
   return (
@@ -25,6 +26,7 @@ function HomePage() {
         orientation="flex-row-reverse"
       />
       <ServicesList />
+      <Brands />
     </>
   );
 }
