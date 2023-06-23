@@ -6,7 +6,7 @@ const Ad = ({ image }) => (
     alt="ad"
     width={1200}
     height={1200}
-    className="w-screen my-20 h-full px-12 object-cover"
+    className="w-5/6 my-20 mx-auto h-full object-cover"
   />
 );
 

@@ -4,6 +4,7 @@ import Slider from '../components/Slider';
 import CategorySection from '../components/CategorySection';
 import FeatureProductSection from '../components/FeatureProductSection';
 import Ad from '../components/Ad';
+import BestSellers from '../components/BestSellers';
 
 function HomePage() {
   return (
@@ -11,9 +12,17 @@ function HomePage() {
       <Navbar />
       <Slider />
       <CategorySection />
-      <FeatureProductSection />
+      <FeatureProductSection
+        text="Productos Populares"
+        orientation="flex-row"
+      />
       <Ad image="/ad1.png" />
+      <BestSellers />
       <Ad image="/ad2.png" />
+      <FeatureProductSection
+        text="Ultimo Productos"
+        orientation="flex-row-reverse"
+      />
     </>
   );
 }

@@ -3,7 +3,7 @@ import Heading from '../Heading';
 import PawIconContainer from '../../containers/PawIconContainer';
 import Product from '../Product';
 
-const FeatureProductSection = () => {
+const FeatureProductSection = ({ text, orientation }) => {
   const product = {
     image: '/chiot.png',
     title: '1st Choice Puppy Chiot',
@@ -17,8 +17,8 @@ const FeatureProductSection = () => {
 
   return (
     <section className="mx-auto w-5/6 my-20">
-      <Heading text="Productos Destacados" />
-      <div className="flex flex-row justify-between">
+      <Heading text={text} />
+      <div className={`flex justify-between ${orientation}`}>
         <Image
           src="/cat.png"
           alt="Cat"
