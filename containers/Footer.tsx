@@ -2,6 +2,7 @@ import AboutUs from '../components/AboutUs';
 import Information from '../components/Information';
 import MyAccount from '../components/MyAccount';
 import Support from '../components/Support';
+import Copyright from '../components/Copyright';
 
 const Footer = () => (
   <footer className="bg-background-200">
@@ -11,6 +12,7 @@ const Footer = () => (
       <Information />
       <Support />
     </div>
+    <Copyright />
   </footer>
 );
 

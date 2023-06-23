@@ -8,7 +8,6 @@ import BestSellers from '../components/BestSellers';
 import ServicesList from '../components/ServicesList';
 import Brands from '../components/Brands';
 import Footer from '../containers/Footer';
-import Copyright from '../components/Copyright';
 
 function HomePage() {
   return (
@@ -30,7 +29,6 @@ function HomePage() {
       <ServicesList />
       <Brands />
       <Footer />
-      <Copyright />
     </>
   );
 }
