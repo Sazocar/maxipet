@@ -4,7 +4,7 @@ import TwitterIcon from '../../icons/TwitterIcon';
 import Subtitle from '../Subtitle';
 
 const Support = () => (
-  <div className="flex flex-col">
+  <div className="sm:py-12 py-6 px-4">
     <Subtitle text="Atención al cliente" />
     <ul className="text-secondary-500 text-base flex flex-col justify-start gap-y-2">
       <li>Bello Monte, calle XXXX, local 1</li>
