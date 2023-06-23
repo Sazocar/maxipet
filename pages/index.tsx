@@ -5,6 +5,7 @@ import CategorySection from '../components/CategorySection';
 import FeatureProductSection from '../components/FeatureProductSection';
 import Ad from '../components/Ad';
 import BestSellers from '../components/BestSellers';
+import ServicesList from '../components/ServicesList';
 
 function HomePage() {
   return (
@@ -23,6 +24,7 @@ function HomePage() {
         text="Ultimo Productos"
         orientation="flex-row-reverse"
       />
+      <ServicesList />
     </>
   );
 }
