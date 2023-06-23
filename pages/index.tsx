@@ -16,7 +16,7 @@ function HomePage() {
       <Slider />
       <CategorySection />
       <FeatureProductSection
-        text="Productos Populares"
+        text="Productos Destacados"
         orientation="flex-row"
       />
       <Ad image="/ad1.png" />

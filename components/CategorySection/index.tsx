@@ -38,7 +38,7 @@ const CategorySection = () => {
   return (
     <section className="mx-auto w-5/6 my-20">
       <Heading text="Una gran variedad de categorias" />
-      <div className="grid my-4 mx-auto place-items-center gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 w-full max-w-screen-xl">
+      <div className="grid my-4 mx-auto place-items-center gap-4 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-6 w-full max-w-screen-xl">
         {categories.map((item) => (
           <Category key={item.id} item={item} />
         ))}

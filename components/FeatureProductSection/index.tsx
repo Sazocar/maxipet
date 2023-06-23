@@ -26,7 +26,7 @@ const FeatureProductSection = ({ text, orientation }) => {
           height={1000}
           className="md:mt-4 hidden mt-12 md:block md:w-4/6 h-full object-cover"
         />
-        <div className="w-full mt-12 md:mt-4 grid pl-12 mx-auto place-items-center gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="w-full mt-12 md:mt-4 grid pl-0 md:pl-12 mx-auto place-items-center gap-8 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {productsArray.map((item) => (
             <Product key={item.id} product={product} />
           ))}
